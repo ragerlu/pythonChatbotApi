@@ -28,7 +28,7 @@ def api():
     return json
 
 # Tuple for returning responses
-Response = namedtuple('Response', 'response', 'accuracy')
+Response = namedtuple('Response', 'response accuracy')
 
 def generate_response(user_input: str) -> Response:
     lowercase_input = user_input.lower()
