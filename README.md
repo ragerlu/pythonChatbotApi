@@ -3,6 +3,8 @@
 ## Purpose
 A simple python api which returns JSON data in the form of {input: ..., response: ..., accuracy: ...}.
 
+I am using this as an educational project.
+
 ## Installation
 -Clone the repository.
 `git clone https://github.com/ragerlu/pythonChatbotApi.git`
